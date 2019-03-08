@@ -18,14 +18,14 @@
             return (
                 <div>
                     <h1>
-                        Hello World! Test
+                        Hello {this.props.name}!
                     </h1>
                 </div>
             );
         }
     }
     ReactDOM.render(
-        <Greeting />, document.querySelector("#app")
+        <Greeting name="Bloc Student" />, document.querySelector("#app")
     );
 </script>
 </body>
